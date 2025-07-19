@@ -196,11 +196,13 @@ The app uses Provider for efficient state management across different features:
 6. **Favorites Screen** - Favorites page with heart icons
     ![img_5.png](img_5.png)
 7. **Profile Screen** - User profile with statistics
-    ![img_4.png](img_4.png)
+    ![img_11.png](img_11.png)
 8. **Pull-to-Refresh** - Refresh indicator in action
     ![img_9.png](img_9.png)
 9. **Sort/Filter Bottom Sheet** - Sorting and filtering options
     ![img_10.png](img_10.png)
+10. **Menu Screen**
+    ![img_4.png](img_4.png)
 
 ## Contributing
 
