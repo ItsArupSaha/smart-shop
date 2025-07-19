@@ -115,22 +115,22 @@ class _LoginScreenState extends State<LoginScreen>
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    
+
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
-          gradient: isDark 
-            ? null
-            : LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: [
-                  Theme.of(context).colorScheme.primary,
-                  Theme.of(context).colorScheme.secondary,
-                  Theme.of(context).colorScheme.tertiary,
-                ],
-                stops: [0.0, 0.5, 1.0],
-              ),
+          gradient: isDark
+              ? null
+              : LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Theme.of(context).colorScheme.primary,
+              Theme.of(context).colorScheme.secondary,
+              Theme.of(context).colorScheme.tertiary,
+            ],
+            stops: [0.0, 0.5, 1.0],
+          ),
           color: isDark ? Colors.black : null,
         ),
         child: SafeArea(
@@ -157,15 +157,15 @@ class _LoginScreenState extends State<LoginScreen>
                                   Container(
                                     padding: EdgeInsets.all(20),
                                     decoration: BoxDecoration(
-                                      color: isDark 
-                                        ? Colors.grey[800]
-                                        : Colors.white.withValues(alpha: 0.2),
+                                      color: isDark
+                                          ? Colors.grey[800]
+                                          : Colors.white.withValues(alpha: 0.2),
                                       shape: BoxShape.circle,
                                       boxShadow: [
                                         BoxShadow(
-                                          color: isDark 
-                                            ? Colors.black.withValues(alpha: 0.4)
-                                            : Colors.black.withValues(alpha: 0.1),
+                                          color: isDark
+                                              ? Colors.black.withValues(alpha: 0.4)
+                                              : Colors.black.withValues(alpha: 0.1),
                                           blurRadius: 20,
                                           offset: Offset(0, 10),
                                         ),
@@ -310,20 +310,20 @@ class _LoginScreenState extends State<LoginScreen>
                                             ),
                                             child: _isLoading
                                                 ? SizedBox(
-                                                    height: 20,
-                                                    width: 20,
-                                                    child: CircularProgressIndicator(
-                                                      strokeWidth: 2,
-                                                      valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
-                                                    ),
-                                                  )
+                                              height: 20,
+                                              width: 20,
+                                              child: CircularProgressIndicator(
+                                                strokeWidth: 2,
+                                                valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                                              ),
+                                            )
                                                 : Text(
-                                                    _isRegisterMode ? 'Create Account' : 'Sign In',
-                                                    style: TextStyle(
-                                                      fontSize: 18,
-                                                      fontWeight: FontWeight.bold,
-                                                    ),
-                                                  ),
+                                              _isRegisterMode ? 'Create Account' : 'Sign In',
+                                              style: TextStyle(
+                                                fontSize: 18,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
                                           ),
                                         ),
                                         SizedBox(height: 16),
