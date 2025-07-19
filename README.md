@@ -1,6 +1,25 @@
 # Smart Shop - Mini E-commerce Flutter App
 
-A comprehensive mini e-commerce mobile application built with Flutter, featuring modern UI/UX design and robust functionality.
+A comprehensive mini e-commerce mobile application built with Flutter, featuring modern UI/UX design, advanced dark theme support, and robust functionality.
+
+## ✨ Features
+
+### 🌙 Enhanced Dark Theme
+- **Pure Dark Mode**: Full black backgrounds with white text
+- **Smart Color Adaptation**: White buttons with black text in dark mode
+- **Consistent Theming**: Deep grey product cards and navbar in dark theme
+- **Theme Persistence**: Remembers user's theme preference
+
+### 🎨 Improved UI/UX
+- **Modern Navbar**: Clean design with menu button and action buttons
+- **Smart Shop Title**: Centered title with shopping bag icon below navbar
+- **Enhanced Product Cards**: Deep grey background with proper contrast
+- **Optimized Layout**: Better spacing and visual hierarchy
+
+### 🔄 Pull-to-Refresh
+- **RefreshIndicator**: Pull down to reload product list
+- **Real-time Updates**: Fetches fresh data from API
+- **Smooth Animation**: Native refresh loading indicator
 
 ## Features
 
@@ -17,6 +36,7 @@ A comprehensive mini e-commerce mobile application built with Flutter, featuring
 - Pull-to-refresh functionality
 - Product rating display with star indicators
 - Add to cart functionality with visual feedback
+- Enhanced dark theme with deep grey cards
 
 ### 🛒 Shopping Cart
 - Add/remove items with quantity management
@@ -31,8 +51,11 @@ A comprehensive mini e-commerce mobile application built with Flutter, featuring
 - Dedicated favorites page
 - Persistent favorites using SharedPreferences
 
-### 🎨 Theme Management
-- Dark/Light theme toggle
+### 🎨 Advanced Theme Management
+- **Enhanced Dark/Light theme toggle**
+- **Pure black backgrounds** in dark mode
+- **White buttons with black text** in dark mode
+- **Deep grey product cards** in dark theme
 - Persistent theme preference
 - Modern Material Design 3 theming
 - Smooth theme transitions
@@ -44,10 +67,11 @@ A comprehensive mini e-commerce mobile application built with Flutter, featuring
 - Bottom sheet for sort/filter options
 
 ### 📱 Navigation
-- Drawer navigation with user profile
+- **Updated Drawer Navigation**: Pure black background with white text in dark mode
 - Cart, Favorites, Profile, and Logout options
 - Theme toggle in drawer
 - Statistics display in profile
+- Clean menu button with proper functionality
 
 ## Technical Stack
 
@@ -141,10 +165,10 @@ The app uses Provider for efficient state management across different features:
 - Material Design 3 components
 - Responsive grid layout
 - Smooth animations and transitions
-- Dark/Light theme support
+- **Enhanced Dark/Light theme support**
 - Intuitive navigation
 
-## Extra Features (Bonus Points)
+## Extra Features 
 
 ✅ **Category-based Product Filtering**: Products are filtered by categories from the API
 ✅ **Pull-to-Refresh**: RefreshIndicator for reloading product data
@@ -153,17 +177,38 @@ The app uses Provider for efficient state management across different features:
 ✅ **Error Handling**: Comprehensive error handling for network issues
 ✅ **Loading States**: Proper loading indicators throughout the app
 ✅ **Responsive Design**: Works well on different screen sizes
+✅ **Enhanced Dark Theme**: Pure black backgrounds with white text and buttons
+✅ **Improved Navbar**: Clean design with menu button and action buttons
+✅ **Smart Product Cards**: Deep grey background with proper contrast in dark mode
 
 ## Screenshots
 
-The app includes:
-- Splash screen with gradient background
-- Login screen with form validation
-- Home screen with product grid and category filters
-- Cart screen with quantity management
-- Favorites screen with heart icons
-- Profile screen with statistics
-- Drawer navigation with theme toggle
+1. **Splash Screen** - App launch with gradient background and logo
+    ![img.png](img.png)
+2. **Login Screen** - Authentication form with validation
+    ![img_1.png](img_1.png)
+3. **Home Screen (Light Theme)** - Product grid with category filters
+    ![img_7.png](img_7.png)
+4. **Home Screen (Dark Theme)** - Pure black background with white text
+    ![img_3.png](img_3.png)
+5. **Cart Screen** - Shopping cart with quantity management
+    ![img_8.png](img_8.png)
+6. **Favorites Screen** - Favorites page with heart icons
+    ![img_5.png](img_5.png)
+7. **Profile Screen** - User profile with statistics
+    ![img_4.png](img_4.png)
+8. **Pull-to-Refresh** - Refresh indicator in action
+    ![img_9.png](img_9.png)
+9. **Sort/Filter Bottom Sheet** - Sorting and filtering options
+    ![img_10.png](img_10.png)
+
+### 📸 Screenshot Guidelines
+
+- **Resolution**: High-quality screenshots (1080x1920 or similar)
+- **Theme Coverage**: Include both light and dark theme screenshots
+- **Key Features**: Showcase all major functionality
+- **Clean Layout**: Ensure no personal data is visible
+- **Consistent Style**: Use same device/simulator for all screenshots
 
 ## Contributing
 

@@ -67,7 +67,9 @@ class _HomeScreenState extends State<HomeScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
-      body: CustomScrollView(
+      body: RefreshIndicator(
+        onRefresh: () => Provider.of<ProductProvider>(context, listen: false).fetchProducts(),
+        child: CustomScrollView(
         slivers: [
           // Animated App Bar
           SliverAppBar(
@@ -388,6 +390,7 @@ class _HomeScreenState extends State<HomeScreen>
             },
           ),
         ],
+      ),
       ),
       drawer: _buildDrawer(),
     );
