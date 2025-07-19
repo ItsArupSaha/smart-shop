@@ -183,14 +183,24 @@ The app uses Provider for efficient state management across different features:
 
 ## Screenshots
 
-The app includes:
-- Splash screen with gradient background
-- Login screen with form validation
-- Home screen with product grid and category filters
-- Cart screen with quantity management
-- Favorites screen with heart icons
-- Profile screen with statistics
-- Drawer navigation with theme toggle
+1. **Splash Screen** - App launch with gradient background and logo
+    ![img.png](img.png)
+2. **Login Screen** - Authentication form with validation
+    ![img_1.png](img_1.png)
+3. **Home Screen (Light Theme)** - Product grid with category filters
+    ![img_7.png](img_7.png)
+4. **Home Screen (Dark Theme)** - Pure black background with white text
+    ![img_3.png](img_3.png)
+5. **Cart Screen** - Shopping cart with quantity management
+    ![img_8.png](img_8.png)
+6. **Favorites Screen** - Favorites page with heart icons
+    ![img_5.png](img_5.png)
+7. **Profile Screen** - User profile with statistics
+    ![img_4.png](img_4.png)
+8. **Pull-to-Refresh** - Refresh indicator in action
+    ![img_9.png](img_9.png)
+9. **Sort/Filter Bottom Sheet** - Sorting and filtering options
+    ![img_10.png](img_10.png)
 
 ## Contributing
 
